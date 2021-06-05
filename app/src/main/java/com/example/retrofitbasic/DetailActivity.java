@@ -16,6 +16,7 @@ private final String TAG= "MainActivity";
         setContentView(R.layout.activity_detail);
         String title = getIntent().getStringExtra("intent_title");
         String image = getIntent().getStringExtra("intent_image");
+        // hallo word
         getSupportActionBar().setTitle(title);
         Picasso.get()
                 .load(image)
